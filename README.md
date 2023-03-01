@@ -16,6 +16,8 @@ Clone this repo, modify Program.cs and provide following details:
 - New Server password
 - Folders that need to be transferred
 
+Mail servers don't accept user entered passwords anymore and require user to generate app passwords from their websites.  In this case, the passwords above are to be filled using corresponding App passwoords generated.
+
 Then install .Net SDK if it is not already available and run `dotnet run` from command terminal with this repo as the current folder.
 
 Sometimes the server times out after transferring many messages.  The program is expected to retry, but in case it stops, following 2 variable can be modified to indicate the folder and message from which to resume:
